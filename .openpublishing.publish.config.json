@@ -1,0 +1,45 @@
+{
+  "build_entry_point": "docs",
+  "docsets_to_publish": [
+    {
+      "docset_name": "contribution_api_test",
+      "build_source_folder": "contribution_api_test",
+      "build_output_subfolder": "contribution_api_test",
+      "locale": "en-tt",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
+  "notification_subscribers": [],
+  "branches_to_filter": [],
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {
+    "live-sxs": "live1"
+  },
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.en-tt",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/OpenLocalizationTestOrg/contribution_api_test",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }
+  ],
+  "need_generate_pdf_url_template": false
+}
